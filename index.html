@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Student Info</title>
+</head>
+<body>
+    <header>
+        <h1>Student Information</h1>
+    </header>
+    <section class="image-container">
+        <img src="images\img1.jpg" alt="Image 1" id="image1">
+        <img src="images\img2.jpg" alt="Image 2" id="image2">
+        <img src="images\img3.jpg" alt="Image 3" id="image3">
+        <img src="images\img4.jpg" alt="Image 4" id="image4">
+    </section>
+    <section class="form-container">
+        <form id="student-form">
+            <label for="name">Student Name:</label>
+            <input type="text" id="name" required>
+            <label for="admission-number">Admission Number:</label>
+            <input type="text" id="admission-number" required>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    <table id="student-table">
+        <thead>
+            <tr>
+                <th>Student Name</th>
+                <th>Admission Number</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>
